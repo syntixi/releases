@@ -1,0 +1,19 @@
+# commit to be tagged for new release
+commit = "HEAD"
+
+project_name = "syntixi"
+github_repo = "syntixi/syntixi"
+
+# previous release
+previous = "v0.0.0"
+
+pre_release = true
+
+preface = """\
+`Syntixi` is a serverless solution with hybrid cloud support.
+"""
+
+# notable prs to include in the release notes, 1234 is the pr number
+[notes]
+
+[breaking]
