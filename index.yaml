@@ -2,8 +2,31 @@ apiVersion: v1
 entries:
   syntixi:
   - apiVersion: v1
+    appVersion: 1.0.1
+    created: "2023-03-10T12:48:55.798070858Z"
+    dependencies:
+    - condition: prometheus.enabled
+      name: prometheus
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 13.0.0
+    description: 'Syntixi: A fast serverless framework for Kubernetes'
+    digest: 814047b34964657f51ea0819c612908d7fe88f4833e1f2597cf74a1b26b8aea7
+    keywords:
+    - syntixi
+    - serverless
+    - kubernetes
+    - hybrid-cloud
+    maintainers:
+    - email: tachingchen@srcmesh.com
+      name: Ta Ching Chen
+    name: syntixi
+    type: application
+    urls:
+    - https://charts.syntixi.dev/syntixi-1.0.1-helm.tgz
+    version: 1.0.1
+  - apiVersion: v1
     appVersion: 1.0.0
-    created: "2022-03-10T14:24:54.163652776Z"
+    created: "2023-03-10T12:48:55.790286906Z"
     dependencies:
     - condition: prometheus.enabled
       name: prometheus
@@ -25,7 +48,7 @@ entries:
     version: 1.0.0
   - apiVersion: v1
     appVersion: 0.0.2-alpha
-    created: "2022-03-10T14:24:54.156083609Z"
+    created: "2023-03-10T12:48:55.783921712Z"
     dependencies:
     - condition: prometheus.enabled
       name: prometheus
@@ -47,7 +70,7 @@ entries:
     version: 0.0.2-alpha
   - apiVersion: v1
     appVersion: 0.0.1-alpha
-    created: "2022-03-10T14:24:54.1475228Z"
+    created: "2023-03-10T12:48:55.777215081Z"
     dependencies:
     - condition: prometheus.enabled
       name: prometheus
@@ -69,7 +92,7 @@ entries:
     version: 0.0.1-alpha
   - apiVersion: v1
     appVersion: 0.0.0-alpha
-    created: "2022-03-10T14:24:54.14023759Z"
+    created: "2023-03-10T12:48:55.770789424Z"
     dependencies:
     - condition: prometheus.enabled
       name: prometheus
@@ -89,4 +112,4 @@ entries:
     urls:
     - https://charts.syntixi.dev/syntixi-0.0.0-alpha-helm.tgz
     version: 0.0.0-alpha
-generated: "2022-03-10T14:24:54.130100594Z"
+generated: "2023-03-10T12:48:55.760863243Z"
