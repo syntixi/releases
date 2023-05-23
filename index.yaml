@@ -2,8 +2,31 @@ apiVersion: v1
 entries:
   syntixi:
   - apiVersion: v1
+    appVersion: 1.0.2
+    created: "2023-05-23T09:56:00.834050322Z"
+    dependencies:
+    - condition: prometheus.enabled
+      name: prometheus
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 13.0.0
+    description: 'Syntixi: A fast serverless framework for Kubernetes'
+    digest: 18cb955911f9ac0468d755a762e291730681ff25817f0dee98ac0faf738cf701
+    keywords:
+    - syntixi
+    - serverless
+    - kubernetes
+    - hybrid-cloud
+    maintainers:
+    - email: tachingchen@srcmesh.com
+      name: Ta Ching Chen
+    name: syntixi
+    type: application
+    urls:
+    - https://releases.syntixi.dev/syntixi-1.0.2-helm.tgz
+    version: 1.0.2
+  - apiVersion: v1
     appVersion: 1.0.1
-    created: "2023-03-13T02:52:31.978876Z"
+    created: "2023-05-23T09:56:00.817754698Z"
     dependencies:
     - condition: prometheus.enabled
       name: prometheus
@@ -26,7 +49,7 @@ entries:
     version: 1.0.1
   - apiVersion: v1
     appVersion: 1.0.0
-    created: "2023-03-13T02:52:31.974654Z"
+    created: "2023-05-23T09:56:00.808146861Z"
     dependencies:
     - condition: prometheus.enabled
       name: prometheus
@@ -48,7 +71,7 @@ entries:
     version: 1.0.0
   - apiVersion: v1
     appVersion: 0.0.2-alpha
-    created: "2023-03-13T02:52:31.969303Z"
+    created: "2023-05-23T09:56:00.790514348Z"
     dependencies:
     - condition: prometheus.enabled
       name: prometheus
@@ -70,7 +93,7 @@ entries:
     version: 0.0.2-alpha
   - apiVersion: v1
     appVersion: 0.0.1-alpha
-    created: "2023-03-13T02:52:31.964251Z"
+    created: "2023-05-23T09:56:00.771548447Z"
     dependencies:
     - condition: prometheus.enabled
       name: prometheus
@@ -92,7 +115,7 @@ entries:
     version: 0.0.1-alpha
   - apiVersion: v1
     appVersion: 0.0.0-alpha
-    created: "2023-03-13T02:52:31.958142Z"
+    created: "2023-05-23T09:56:00.761411772Z"
     dependencies:
     - condition: prometheus.enabled
       name: prometheus
@@ -112,4 +135,4 @@ entries:
     urls:
     - https://releases.syntixi.dev/syntixi-0.0.0-alpha-helm.tgz
     version: 0.0.0-alpha
-generated: "2023-03-13T02:52:31.952036Z"
+generated: "2023-05-23T09:56:00.744300986Z"
