@@ -3,7 +3,7 @@ entries:
   syntixi:
   - apiVersion: v1
     appVersion: 1.0.2
-    created: "2023-09-12T10:49:45.934678559Z"
+    created: "2024-04-17T15:19:37.108312853Z"
     dependencies:
     - condition: prometheus.enabled
       name: prometheus
@@ -26,7 +26,7 @@ entries:
     version: 1.0.2
   - apiVersion: v1
     appVersion: 1.0.1
-    created: "2023-09-12T10:49:45.919321202Z"
+    created: "2024-04-17T15:19:37.103057484Z"
     dependencies:
     - condition: prometheus.enabled
       name: prometheus
@@ -49,7 +49,7 @@ entries:
     version: 1.0.1
   - apiVersion: v1
     appVersion: 1.0.0
-    created: "2023-09-12T10:49:45.910253105Z"
+    created: "2024-04-17T15:19:37.098579592Z"
     dependencies:
     - condition: prometheus.enabled
       name: prometheus
@@ -71,7 +71,7 @@ entries:
     version: 1.0.0
   - apiVersion: v1
     appVersion: 0.0.2-test
-    created: "2023-09-12T10:49:45.8938296Z"
+    created: "2024-04-17T15:19:37.093245763Z"
     dependencies:
     - condition: prometheus.enabled
       name: prometheus
@@ -98,7 +98,7 @@ entries:
     version: 0.0.2-test
   - apiVersion: v1
     appVersion: 0.0.2-alpha
-    created: "2023-09-12T10:49:45.883350668Z"
+    created: "2024-04-17T15:19:37.087803567Z"
     dependencies:
     - condition: prometheus.enabled
       name: prometheus
@@ -120,7 +120,7 @@ entries:
     version: 0.0.2-alpha
   - apiVersion: v1
     appVersion: 0.0.1-test
-    created: "2023-09-12T10:49:45.867188588Z"
+    created: "2024-04-17T15:19:37.082570907Z"
     dependencies:
     - condition: prometheus.enabled
       name: prometheus
@@ -147,7 +147,7 @@ entries:
     version: 0.0.1-test
   - apiVersion: v1
     appVersion: 0.0.1-alpha
-    created: "2023-09-12T10:49:45.853272467Z"
+    created: "2024-04-17T15:19:37.077396979Z"
     dependencies:
     - condition: prometheus.enabled
       name: prometheus
@@ -168,8 +168,35 @@ entries:
     - https://releases.syntixi.dev/syntixi-0.0.1-alpha-helm.tgz
     version: 0.0.1-alpha
   - apiVersion: v1
+    appVersion: 0.0.0-test
+    created: "2024-04-17T15:19:37.07214746Z"
+    dependencies:
+    - condition: prometheus.enabled
+      name: prometheus
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 13.0.0
+    - condition: grafana_operator.install
+      name: grafana-operator
+      repository: oci://ghcr.io/grafana-operator/helm-charts
+      version: v5.0.1
+    description: 'Syntixi: A fast serverless framework for Kubernetes'
+    digest: a66e4f42e03e4be4075a8bbdb9df83562682b40afb88bbfd7ff1cf5b1f56b71c
+    keywords:
+    - syntixi
+    - serverless
+    - kubernetes
+    - hybrid-cloud
+    maintainers:
+    - email: tachingchen@srcmesh.com
+      name: Ta Ching Chen
+    name: syntixi
+    type: application
+    urls:
+    - https://releases.syntixi.dev/syntixi-0.0.0-test-helm.tgz
+    version: 0.0.0-test
+  - apiVersion: v1
     appVersion: 0.0.0-alpha
-    created: "2023-09-12T10:49:45.841728036Z"
+    created: "2024-04-17T15:19:37.065931578Z"
     dependencies:
     - condition: prometheus.enabled
       name: prometheus
@@ -189,4 +216,4 @@ entries:
     urls:
     - https://releases.syntixi.dev/syntixi-0.0.0-alpha-helm.tgz
     version: 0.0.0-alpha
-generated: "2023-09-12T10:49:45.829979102Z"
+generated: "2024-04-17T15:19:37.061013987Z"
