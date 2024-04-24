@@ -1,0 +1,31 @@
+apiVersion: v1
+entries:
+  syntixi:
+  - apiVersion: v1
+    appVersion: 0.0.0-rc.1
+    created: "2024-04-24T15:55:56.290542Z"
+    dependencies:
+    - condition: prometheus.enabled
+      name: prometheus
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 13.0.0
+    - condition: grafana_operator.install
+      name: grafana-operator
+      repository: oci://ghcr.io/grafana-operator/helm-charts
+      version: v5.0.1
+    description: 'Syntixi: A fast serverless framework for Kubernetes'
+    digest: 100c4d44b785f3ed0e2ef88eda30bd73b9cad65fec0278d8e4a0c0494ebc281d
+    keywords:
+    - syntixi
+    - serverless
+    - kubernetes
+    - hybrid-cloud
+    maintainers:
+    - email: tachingchen@srcmesh.com
+      name: Ta Ching Chen
+    name: syntixi
+    type: application
+    urls:
+    - https://releases.syntixi.dev/syntixi-0.0.0-rc.1-helm.tgz
+    version: 0.0.0-rc.1
+generated: "2024-04-24T15:55:56.281699Z"
